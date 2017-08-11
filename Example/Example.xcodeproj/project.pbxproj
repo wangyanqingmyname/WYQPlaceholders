@@ -13,6 +13,17 @@
 		42A945511F3D8DC4007C65A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A945501F3D8DC4007C65A3 /* Assets.xcassets */; };
 		42A945541F3D8DC4007C65A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A945521F3D8DC4007C65A3 /* LaunchScreen.storyboard */; };
 		42A9455F1F3D8DC5007C65A3 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9455E1F3D8DC5007C65A3 /* ExampleUITests.swift */; };
+		42A9457B1F3DA792007C65A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9456B1F3DA792007C65A3 /* AppDelegate.swift */; };
+		42A9457C1F3DA792007C65A3 /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9456D1F3DA792007C65A3 /* BasicCollectionViewCell.swift */; };
+		42A9457D1F3DA792007C65A3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9456E1F3DA792007C65A3 /* CollectionViewController.swift */; };
+		42A9457E1F3DA792007C65A3 /* PlaceholdersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9456F1F3DA792007C65A3 /* PlaceholdersProvider.swift */; };
+		42A9457F1F3DA792007C65A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A945711F3DA792007C65A3 /* LaunchScreen.xib */; };
+		42A945801F3DA792007C65A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A945731F3DA792007C65A3 /* Main.storyboard */; };
+		42A945811F3DA792007C65A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A945751F3DA792007C65A3 /* Images.xcassets */; };
+		42A945821F3DA792007C65A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42A945761F3DA792007C65A3 /* Info.plist */; };
+		42A945831F3DA792007C65A3 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A945781F3DA792007C65A3 /* ExampleTableViewCell.swift */; };
+		42A945841F3DA792007C65A3 /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A945791F3DA792007C65A3 /* ExampleTableViewCell.xib */; };
+		42A945851F3DA792007C65A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9457A1F3DA792007C65A3 /* TableViewController.swift */; };
 		44E81071B1D5206B8AD6AB38 /* Pods_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C38A8E487A9472B8874BC7 /* Pods_ExampleUITests.framework */; };
 		664550C2319A2B3A35C71402 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3740A56B06B281051846C6FB /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +53,17 @@
 		42A9455A1F3D8DC5007C65A3 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A9455E1F3D8DC5007C65A3 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		42A945601F3D8DC5007C65A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A9456B1F3DA792007C65A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A9456D1F3DA792007C65A3 /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
+		42A9456E1F3DA792007C65A3 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		42A9456F1F3DA792007C65A3 /* PlaceholdersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholdersProvider.swift; sourceTree = "<group>"; };
+		42A945721F3DA792007C65A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42A945741F3DA792007C65A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A945751F3DA792007C65A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42A945761F3DA792007C65A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A945781F3DA792007C65A3 /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		42A945791F3DA792007C65A3 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		42A9457A1F3DA792007C65A3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A648AEE3763BA6C48E1B9771 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5921802BD77C6BB0A293AE5 /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +111,7 @@
 		42A945481F3D8DC4007C65A3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				42A945691F3DA792007C65A3 /* HGPlaceholders */,
 				42A945491F3D8DC4007C65A3 /* AppDelegate.swift */,
 				42A9454B1F3D8DC4007C65A3 /* ViewController.swift */,
 				42A9454D1F3D8DC4007C65A3 /* Main.storyboard */,
@@ -106,6 +129,56 @@
 				42A945601F3D8DC5007C65A3 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		42A945691F3DA792007C65A3 /* HGPlaceholders */ = {
+			isa = PBXGroup;
+			children = (
+				42A9456A1F3DA792007C65A3 /* AppDelegate */,
+				42A9456C1F3DA792007C65A3 /* CollectionViewExample */,
+				42A9456F1F3DA792007C65A3 /* PlaceholdersProvider.swift */,
+				42A945701F3DA792007C65A3 /* Resources */,
+				42A945771F3DA792007C65A3 /* TableViewExample */,
+			);
+			path = HGPlaceholders;
+			sourceTree = "<group>";
+		};
+		42A9456A1F3DA792007C65A3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				42A9456B1F3DA792007C65A3 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		42A9456C1F3DA792007C65A3 /* CollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				42A9456D1F3DA792007C65A3 /* BasicCollectionViewCell.swift */,
+				42A9456E1F3DA792007C65A3 /* CollectionViewController.swift */,
+			);
+			path = CollectionViewExample;
+			sourceTree = "<group>";
+		};
+		42A945701F3DA792007C65A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42A945711F3DA792007C65A3 /* LaunchScreen.xib */,
+				42A945731F3DA792007C65A3 /* Main.storyboard */,
+				42A945751F3DA792007C65A3 /* Images.xcassets */,
+				42A945761F3DA792007C65A3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42A945771F3DA792007C65A3 /* TableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				42A945781F3DA792007C65A3 /* ExampleTableViewCell.swift */,
+				42A945791F3DA792007C65A3 /* ExampleTableViewCell.xib */,
+				42A9457A1F3DA792007C65A3 /* TableViewController.swift */,
+			);
+			path = TableViewExample;
 			sourceTree = "<group>";
 		};
 		49B30F3E962BE6217DE3D294 /* Pods */ = {
@@ -219,9 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A945841F3DA792007C65A3 /* ExampleTableViewCell.xib in Resources */,
+				42A9457F1F3DA792007C65A3 /* LaunchScreen.xib in Resources */,
+				42A945801F3DA792007C65A3 /* Main.storyboard in Resources */,
 				42A945541F3D8DC4007C65A3 /* LaunchScreen.storyboard in Resources */,
+				42A945811F3DA792007C65A3 /* Images.xcassets in Resources */,
 				42A945511F3D8DC4007C65A3 /* Assets.xcassets in Resources */,
 				42A9454F1F3D8DC4007C65A3 /* Main.storyboard in Resources */,
+				42A945821F3DA792007C65A3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +419,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A9457E1F3DA792007C65A3 /* PlaceholdersProvider.swift in Sources */,
+				42A9457B1F3DA792007C65A3 /* AppDelegate.swift in Sources */,
+				42A9457C1F3DA792007C65A3 /* BasicCollectionViewCell.swift in Sources */,
+				42A945851F3DA792007C65A3 /* TableViewController.swift in Sources */,
 				42A9454C1F3D8DC4007C65A3 /* ViewController.swift in Sources */,
+				42A945831F3DA792007C65A3 /* ExampleTableViewCell.swift in Sources */,
 				42A9454A1F3D8DC4007C65A3 /* AppDelegate.swift in Sources */,
+				42A9457D1F3DA792007C65A3 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +463,22 @@
 				42A945531F3D8DC4007C65A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42A945711F3DA792007C65A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A945721F3DA792007C65A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		42A945731F3DA792007C65A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A945741F3DA792007C65A3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -554,6 +654,7 @@
 				42A945651F3D8DC5007C65A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A945661F3D8DC5007C65A3 /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +663,7 @@
 				42A945681F3D8DC5007C65A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
